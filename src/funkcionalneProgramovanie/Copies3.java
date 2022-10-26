@@ -17,7 +17,6 @@ public class Copies3 {
     }
     public static List<String> copies3(List<String> strings) {
         strings.replaceAll(s -> s + s + s);
-
         return strings;
 
     }
