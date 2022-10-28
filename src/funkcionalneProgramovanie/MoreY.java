@@ -12,20 +12,11 @@ public class MoreY<T> {
         list.add("c");
         moreY(list);
         System.out.println(list + " ");
-
-
-
     }
 
     public static List<String> moreY(List<String> strings) {
         strings.replaceAll(s -> "y" + s + "y");
         return strings;
     }
-
-//    public static List<String> moreY2(List<String> strings)
-//    {
-//       return strings.stream()
-//                .map(s -> "y" + s + "y")
-//               .collect(Collectors.toList());
-//    }
 }
+
