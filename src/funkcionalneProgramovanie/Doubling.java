@@ -13,9 +13,7 @@ public class Doubling {
         list.add(6);
         doubling(list);
         list.forEach(System.out::println);
-
     }
-
     public static List<Integer> doubling(List<Integer> nums) {
 
         nums.replaceAll(n -> n*2);
